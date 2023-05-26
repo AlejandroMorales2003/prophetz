@@ -5,11 +5,45 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Web site created using create-react-app" />
+
+  <!-- This is the link for the fonts I found on google fonts -->
+<!--   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Tilt+Prism&family=Urbanist:ital,wght@0,100;1,100&display=swap" rel="stylesheet"> -->
+  <!-- <link href="/Technocra.ttf" rel="stylesheet"> -->
+
   <style>
+    /* This is how you add a non-standard font*/
+    @font-face {
+      font-family: 'Tech';
+      src: url("/Technocra.ttf") format('truetype')
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Climate+Crisis&family=Gajraj+One&family=Lobster&family=Tilt+Prism&family=Urbanist:ital,wght@0,100;1,100&display=swap');
+
     * {
       margin: 0;
+      /*font-family: 'Tech'; 
+      font-family: 'Anton', sans-serif; */
+      /*font-family: 'Climate Crisis';
+
+      /* font-family: 'Gajraj One', cursive; */
+      /* font-family: 'Lobster'; */
+      /* /font-family: 'Tilt Prism', cursive; */
+      font-family: 'Courier New', Courier, monospace;
     }
   </style>
+
+ <!--  <style>
+    * {
+      margin: 0;
+      /* These are the font famalies found from the given links 
+      font-family: 'Lobster', cursive;*/
+      /*font-family: 'Tilt Prism', cursive;*/
+      /*font-family: 'Urbanist', sans-serif;*/
+      /*font-family: 'Courier New', Courier, monospace;*/
+      font-family: "Tech";
+    }
+  </style> -->
   <title>React App</title>
 </head>
 
@@ -18,4 +52,4 @@
   <div id="root"></div>
 </body>
 
-</html>
+</html> 
